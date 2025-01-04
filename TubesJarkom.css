@@ -1,0 +1,144 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  color: #333;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  background: #0073e6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 8px;
+  top: 0;
+  z-index: 1000;
+  position: sticky;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.content {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2,
+h3 {
+  color: #0073e6;
+  margin-bottom: 10px;
+}
+
+.biodata,
+.keterangan,
+.jenis,
+.sumber,
+.tutorial {
+  margin-bottom: 20px;
+}
+
+.sumber a {
+  text-decoration: none;
+  color: brown;
+}
+
+.sumber a:hover {
+  text-decoration: none;
+  color: #0073e6;
+  transition: color ease 0.3s;
+}
+
+.tutorial a {
+  text-decoration: none;
+  color: brown;
+  padding: 12px;
+}
+
+.tutorial a:hover {
+  color: white;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #0073e6;
+  border-radius: 5%;
+  padding: 12px;
+  transition: background-color ease 0.3s;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 3%;
+  display: block;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.device-image {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 10px 0;
+}
+
+.keterangan .list-fungsi li {
+  list-style: disc;
+}
+
+.keterangan .list-fungsi .fungsi {
+  font-size: 20px;
+}
+
+.jenis .list-jenis li {
+  list-style: decimal;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #0073e6;
+  color: white;
+  border-radius: 8px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
